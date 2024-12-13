@@ -1,0 +1,13 @@
+{
+  "name": "ramenroom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "rockfishtaco@github.io/ramenroom",
+  "description": ""
+}

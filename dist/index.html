@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramen House</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .sun {
+            width: 150px;
+            height: 150px;
+            background: radial-gradient(circle, #ff4500 50%, transparent 51%),
+                        repeating-linear-gradient(45deg, transparent 0, transparent 5px, #ff4500 6px, #ff4500 11px);
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0 0 10px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+
+        .cta-button {
+            margin-top: 20px;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff4500;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #e03e00;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sun"></div>
+        <h1>Welcome to Ramen Room</h1>
+        <p>Experience authentic Japanese ramen with every bowl.</p>
+        <a href="#menu" class="cta-button">View Menu</a>
+    </div>
+    <footer>&copy; 2024 Ramen Room. All Rights Reserved.</footer>
+</body>
+</html>
